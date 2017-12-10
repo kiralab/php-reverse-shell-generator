@@ -31,7 +31,6 @@ if (function_exists('pcntl_fork')) {
 	printit("WARNING: Failed to daemonise.  This is quite common and not fatal.");
 }
 
-chdir("/");
 umask(0);
 
 $sock = fsockopen($ip, $port, $errno, $errstr, 30);
