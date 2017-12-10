@@ -10,7 +10,7 @@ elif (len(sys.argv) == 3):
 	ip = sys.argv[1]
 	port = sys.argv[2]
 else:
-	print '[!] Usage: %s <ip (defult:127.0.0.1)> <port>' % (sys.argv[0])
+	print '[!] Usage: %s <ip (default:127.0.0.1)> <port>' % (sys.argv[0])
 	exit()
 
 try:
