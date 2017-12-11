@@ -4,6 +4,9 @@
 # TODO
 # Find a better way to obfuscate the payload
 
+#`TIPS:
+# Upgrade to tty shell: "python -c 'import pty; pty.spawn("/bin/bash")'"
+
 import os
 import sys
 
