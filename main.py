@@ -2,10 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # TODO
-# Importare il template della payload direttamente in una variabile [FATTO]
-# Trovare un metodo migliore di offuscare il codice
-# Inserire possibile di scegliere il nome della payload e il path
-# Vedere come scaricare / caricare file da nc
+# Find a better way to obfuscate the payload
 
 import os
 import sys
